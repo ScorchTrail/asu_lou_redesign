@@ -2,11 +2,12 @@
   position: relative;
   min-height: 720px;
   max-height: 800px;
+  height: 100vh;
+  scroll-margin-top: 4rem;
   display: flex;
   justify-content: space-between;
   padding: 4rem;
   gap: 5rem;
-  scroll-margin-top: 4rem;
 }
 
 .meet__text {

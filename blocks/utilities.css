@@ -1,0 +1,9 @@
+.u-accent {
+  color: #e98690;
+}
+
+.image {
+  border-radius: 32px;
+  border: solid 16px #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

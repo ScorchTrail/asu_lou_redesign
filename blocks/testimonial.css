@@ -1,17 +1,20 @@
 .testimonial {
-  padding: 4rem 2rem;
-  background-color: #f9f3f2;
   position: relative;
   min-height: 720px;
   max-height: 800px;
   height: 100vh;
+  scroll-margin-top: 4rem;
+  padding: 4rem;
   display: flex;
   flex-direction: column;
-  padding: 4rem;
-  scroll-margin-top: 4rem;
   text-align: center;
   justify-content: space-between;
   gap: 4rem;
+}
+
+.testimonial__title {
+  margin: 0;
+  font-size: 4rem;
 }
 
 .testimonial__subtitle {
@@ -20,13 +23,9 @@
   margin: 0;
 }
 
-.testimonial__title {
-  font-size: 4rem;
-  margin: 0;
-}
-
 .testimonial__description {
   font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 .testimonial__gallery {
@@ -44,7 +43,6 @@
   background-color: #ffffff;
   border-radius: 16px;
   padding: 1rem;
-  flex-grow: 1;
   border: solid 1rem #f1dada;
   flex-wrap: wrap;
 }

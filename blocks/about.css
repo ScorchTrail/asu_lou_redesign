@@ -3,11 +3,11 @@
   min-height: 720px;
   max-height: 800px;
   height: 100vh;
+  scroll-margin-top: 4rem;
   display: flex;
   justify-content: space-between;
   padding: 4rem;
   gap: 4rem;
-  scroll-margin-top: 4rem;
 }
 
 .about__text {
@@ -17,15 +17,15 @@
 }
 
 .about__image {
-  width: 100%;
-  height: auto;
   border-radius: 32px;
   border: solid 16px #f1dada;
+  height: auto;
+  width: 100%;
 }
 
 .about__title {
-  margin: 0 0 2rem 0;
   font-size: 5rem;
+  margin: 0 0 2rem 0;
 }
 
 .about__subtitle {

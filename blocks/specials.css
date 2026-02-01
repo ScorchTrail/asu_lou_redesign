@@ -3,17 +3,17 @@
   min-height: 720px;
   max-height: 800px;
   height: 100vh;
+  scroll-margin-top: 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 4rem;
-  scroll-margin-top: 4rem;
   gap: 4rem;
 }
 
 .specials__title {
-  margin: 0;
   font-size: 5rem;
+  margin: 0;
 }
 
 .specials__gallery {

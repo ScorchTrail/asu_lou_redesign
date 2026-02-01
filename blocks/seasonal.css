@@ -3,25 +3,25 @@
   min-height: 720px;
   max-height: 800px;
   height: 100vh;
+  scroll-margin-top: 4rem;
   display: flex;
   justify-content: space-between;
   padding: 4rem;
   gap: 4rem;
-  scroll-margin-top: 4rem;
 }
 
 .seasonal__text {
   display: flex;
   flex-direction: column;
-  text-align: end;
   justify-content: center;
+  text-align: end;
 }
 
 .seasonal__image {
-  width: 100%;
-  height: auto;
   border-radius: 32px;
   border: solid 16px #f1dada;
+  height: auto;
+  width: 100%;
 }
 
 .seasonal__title {
@@ -37,7 +37,6 @@
 .seasonal__description {
   font-size: 2rem;
   margin-bottom: 2rem;
-  text-align: center;
 }
 
 .seasonal__description:last-of-type {
