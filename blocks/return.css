@@ -1,0 +1,27 @@
+.return {
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.return__button {
+  align-self: end;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  background-color: #3d7960;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.return__button:hover {
+  background-color: #335f4b;
+}
+
+.return__footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 4rem;
+}
