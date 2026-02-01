@@ -1,14 +1,13 @@
 .contact {
   position: relative;
   min-height: 720px;
-  max-height: 800px;
-  height: 100vh;
   scroll-margin-top: 4rem;
   display: flex;
   justify-content: space-between;
   padding: 4rem;
   gap: 4rem;
   flex-direction: column;
+  box-sizing: border-box;
 }
 
 .contact__text {
@@ -32,6 +31,7 @@
   border-radius: 16px;
   border: solid 16px #f1dada;
   height: auto;
+  min-height: 300px;
   flex-grow: 1;
 }
 
@@ -68,4 +68,28 @@
   padding: 1rem;
   border: solid 1rem #f1dada;
   flex-wrap: wrap;
+}
+
+@media (max-width: 900px) {
+  .contact {
+    padding: 2rem 1rem;
+    height: auto;
+  }
+
+  .contact__content {
+    flex-direction: column;
+  }
+
+  .contact__title {
+    font-size: 3rem;
+  }
+
+  .contact__description {
+    font-size: 1.25rem;
+  }
+
+  .contact__gallery {
+    flex-direction: row;
+    justify-content: center;
+  }
 }

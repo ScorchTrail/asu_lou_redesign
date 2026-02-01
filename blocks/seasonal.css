@@ -1,13 +1,13 @@
 .seasonal {
   position: relative;
   min-height: 720px;
-  max-height: 800px;
-  height: 100vh;
   scroll-margin-top: 4rem;
   display: flex;
   justify-content: space-between;
   padding: 4rem;
   gap: 4rem;
+  align-items: center;
+  box-sizing: border-box;
 }
 
 .seasonal__text {
@@ -22,11 +22,13 @@
   border: solid 16px #f1dada;
   height: auto;
   width: 100%;
+  max-width: 600px;
 }
 
 .seasonal__title {
   margin: 0 0 2rem 0;
   font-size: 4rem;
+  line-height: 1;
 }
 
 .seasonal__subtitle {
@@ -41,4 +43,28 @@
 
 .seasonal__description:last-of-type {
   color: #3d7960;
+}
+
+@media (max-width: 900px) {
+  .seasonal {
+    flex-direction: column-reverse;
+    padding: 2rem 1.5rem;
+    height: auto;
+  }
+
+  .seasonal__text {
+    text-align: center;
+  }
+
+  .seasonal__title {
+    font-size: 3rem;
+  }
+
+  .seasonal__description {
+    font-size: 1.25rem;
+  }
+
+  .seasonal__image {
+    border-width: 8px;
+  }
 }

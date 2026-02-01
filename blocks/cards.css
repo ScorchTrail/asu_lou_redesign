@@ -2,10 +2,12 @@
   border-radius: 32px;
   text-align: center;
   background-color: #f1dada;
-  width: 22rem;
+  width: 100%;
+  max-width: 22rem;
   display: flex;
   flex-direction: column;
   border: solid 1rem #f1dada;
+  box-sizing: border-box;
 }
 
 .card__image {

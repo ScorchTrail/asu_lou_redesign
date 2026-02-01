@@ -1,13 +1,13 @@
 .meet {
   position: relative;
   min-height: 720px;
-  max-height: 800px;
-  height: 100vh;
   scroll-margin-top: 4rem;
   display: flex;
   justify-content: space-between;
   padding: 4rem;
   gap: 5rem;
+  align-items: center;
+  box-sizing: border-box;
 }
 
 .meet__text {
@@ -29,6 +29,7 @@
 .meet__title {
   margin: 0 0 2rem 0;
   font-size: 7rem;
+  line-height: 1;
 }
 
 .meet__subtitle {
@@ -44,4 +45,29 @@
 
 .meet__description:last-of-type {
   color: #3d7960;
+}
+
+@media (max-width: 900px) {
+  .meet {
+    flex-direction: column-reverse;
+    padding: 2rem 1.5rem;
+    height: auto;
+  }
+
+  .meet__text {
+    text-align: center;
+  }
+
+  .meet__title {
+    font-size: 3.5rem;
+  }
+
+  .meet__description {
+    font-size: 1.25rem;
+  }
+
+  .meet__image {
+    max-width: 100%;
+    border-width: 8px;
+  }
 }

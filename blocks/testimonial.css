@@ -1,15 +1,15 @@
 .testimonial {
   position: relative;
   min-height: 720px;
-  max-height: 800px;
-  height: 100vh;
   scroll-margin-top: 4rem;
   padding: 4rem;
+  background-color: #f9f3f2;
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: space-between;
   gap: 4rem;
+  box-sizing: border-box;
 }
 
 .testimonial__title {
@@ -31,18 +31,33 @@
 .testimonial__gallery {
   display: flex;
   flex-grow: 1;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   gap: 1rem;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .testimonial__card {
   flex-grow: 1;
   min-width: 250px;
+  max-width: 400px;
   background-color: #ffffff;
   border-radius: 16px;
   padding: 1rem;
   border: solid 1rem #f1dada;
-  flex-wrap: wrap;
+}
+
+@media (max-width: 900px) {
+  .testimonial {
+    padding: 2rem 1rem;
+    height: auto;
+  }
+
+  .testimonial__title {
+    font-size: 3rem;
+  }
+
+  .testimonial__description {
+    font-size: 1.25rem;
+  }
 }
